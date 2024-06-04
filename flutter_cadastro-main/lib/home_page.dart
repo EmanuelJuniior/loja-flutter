@@ -10,9 +10,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xFF204353),
+        backgroundColor: Color.fromARGB(255, 14, 80, 1),
         foregroundColor: Colors.white,
-        title: const Text('Dashboard'),
+        title: const Text('CALANGO'),
       ),
       drawer: Drawer(
         child: ListView(
@@ -74,7 +74,7 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Bem-vindo ao Ecommerce App!',
+              'Produtos CALANGO',
               style: TextStyle(fontSize: 24.0),
             ),
             SizedBox(height: 20.0),
